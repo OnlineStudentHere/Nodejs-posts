@@ -18,7 +18,7 @@ const server = http.createServer((req, res) => {
             response.on('end', () => {
                 const posts = JSON.parse(data);
 
-              //  let post_list = posts.map((post, index) => {
+              //  let post_list = posts.map((post) => {
                 let post_list = posts.map((post) => {
                     return `<tr>
                     <td>${post.id}</td>
