@@ -1,6 +1,8 @@
 
 
 
+// http://localhost:3000/posts
+
 const http = require('http');
 const port = 3000;
 
